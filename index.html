@@ -347,6 +347,11 @@
 
         // Initialize the scene
         init();
+        window.addEventListener('keydown', function (event) {
+        if (event.code === 'Space') {
+            window.location.href = '/mail';
+        }
+    });
     </script>
 </body>
 </html>
